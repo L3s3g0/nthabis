@@ -197,6 +197,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(18rem, 18rem));
         place-content: center;
+        overflow-y: scroll;
         gap: 0.8rem;
         width: 100%;
     }
@@ -343,6 +344,7 @@
         grid-template-columns: repeat(auto-fit, minmax(10rem, 10rem));
         padding: 0.8rem 0rem;
         gap: 2px;
+        justify-content: center;
     }
 
     section .Gallery .gal img{
