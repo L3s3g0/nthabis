@@ -195,8 +195,7 @@
     section .Rooms .rooms{
         background-color: none;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(auto, 18rem));
-        grid-template-rows: repeat(auto-fit, minmax(auto, 22rem));
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 18rem));
         place-content: center;
         gap: 0.8rem;
         width: 100%;
@@ -341,14 +340,14 @@
 
     section .Gallery .gal{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(11.5rem, 11.5rem));
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 10rem));
         padding: 0.8rem 0rem;
         gap: 2px;
     }
 
     section .Gallery .gal img{
-        width: 11.5rem;
-        height: 11.5rem;
+        width: 10rem;
+        height: 10rem;
     }
 
     /* __CONTACT CONTENT__ */
